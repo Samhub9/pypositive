@@ -1,0 +1,4 @@
+n=[12, -7, 5, 64, -14]
+print("Input: List 1= ",n)
+new_n= list(filter(lambda x: x >0, n))
+print("Output: ",new_n)
